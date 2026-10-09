@@ -6,11 +6,8 @@ A Python toolkit for exploring, enumerating, and visualizing **integer partition
 
 ## Overview
 
-In number theory and combinatorics, a **partition** of a positive integer $n$ is a way of writing $n$ as a sum of positive integers, where the order of summands does not matter:
+In number theory and combinatorics, a **partition** of a positive integer $n$ is a way of writing $n$ as a sum of positive integers, where the order of summands does not matter.
 
-$$n = \lambda_1 + \lambda_2 + \dots + \lambda_k \quad \text{where} \quad \lambda_1 \ge \lambda_2 \ge \dots \ge \lambda_k \ge 1$$
-
-Each $\lambda_i$ is called a **part** of the partition. The total number of partitions of $n$ is given by the partition function $p(n)$.
 
 This repository provides clean, educational Python implementations to:
 1. **Enumerate and count** all partitions of integers up to $n$ recursively.
